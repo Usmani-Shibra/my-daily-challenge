@@ -1,0 +1,32 @@
+main {
+	width: 800px;
+	border: 5px solid rgb(44, 44, 44);
+	border-radius: 9px;
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.3);
+	background-color: antiquewhite;
+	margin: 150px auto 42px auto;
+	padding: 24px;
+}
+
+span {
+	color: rgb(180, 8, 8);
+}
+img {
+	width: 150px;
+	height: 150px;
+	border: 5px solid rgb(44, 44, 44);
+	border-radius: 100px;
+	margin-top: -134px;
+}
+
+/* styling with the help of id-selector */
+#todays-challenge {
+	color: rgb(170, 96, 83);
+	font-weight: bold;
+	font-size: 52px;
+	margin-top: 40px;
+}
+
+footer {
+	margin-top: 15px;
+}

@@ -1,0 +1,75 @@
+/* understanding parent,children,container,inheritance,cascading and specificity */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Inline and block element  */
+nav {
+	margin: 25px 880px 15px 0px;
+	display: inline-block;
+}
+
+/* Box Model */
+a {
+	padding: 12px 40px;
+	background-color: rgb(167, 1, 78);
+	color: white;
+	border-radius: 8px;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: rgb(180, 12, 90);
+}
+
+header {
+	margin: 0px 0px 20px 0px;
+}
+
+h1 {
+	font-size: 48px;
+	color: rgb(71, 62, 62);
+	margin: 0;
+}
+
+ol {
+	list-style: none;
+	width: 500px;
+	margin: 36px auto 0px auto;
+	padding: 0;
+}
+
+li {
+	padding: 16px;
+	background-color: rgb(231, 138, 138);
+	border-radius: 8px;
+	margin: 36px;
+	/* box-shadow property */
+	box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* using Id to apply css */
+#description {
+	margin: 12px;
+}
+
+/* using class to apply css */
+.highlight-goal {
+	background-color: rgb(192, 50, 50);
+}
+
+/* using type to apply css */
+h2 {
+	color: rgb(78, 13, 5);
+	font-family: 'Oswald', 'sans-serif';
+}
+
+/* using combinator to apply css */
+main p {
+	margin: 12px;
+	color: rgb(71, 29, 22);
+}
+/* Priorities
+.class/#id > combinators > type */
